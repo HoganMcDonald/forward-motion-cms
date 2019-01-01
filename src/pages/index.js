@@ -5,10 +5,13 @@ import Helmet from 'react-helmet';
 
 import Layout from '../components/Layout';
 import Hero from '../components/Hero';
+import Logo from '../svgs/Logo';
 
 export const HomePageTemplate = ({ home }) => (
   <div>
-    <Hero {...home.hero} />
+    <Hero {...home.hero}>
+      <Logo />
+    </Hero>
   </div>
 );
 
