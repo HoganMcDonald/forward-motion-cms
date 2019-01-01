@@ -116,3 +116,13 @@ collections:
                   { label: Browser Title, name: browserTitle, widget: string },
                 ],
             }
+          - {
+              label: Hero,
+              name: hero,
+              widget: object,
+              fields:
+                [
+                  { label: Image, name: imageSrc, widget: image },
+                  { label: Description, name: imageAlt, widget: string },
+                ],
+            }

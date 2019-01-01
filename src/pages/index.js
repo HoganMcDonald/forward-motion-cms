@@ -8,7 +8,7 @@ import Hero from '../components/Hero';
 
 export const HomePageTemplate = ({ home }) => (
   <div>
-    <Hero title={home.seo.title} subTitle={home.seo.description} />
+    <Hero {...home.hero} />
   </div>
 );
 
@@ -60,6 +60,10 @@ export const pageQuery = graphql`
               browserTitle
               title
               description
+            }
+            hero {
+              imgSrc
+              imgAlt
             }
           }
         }
