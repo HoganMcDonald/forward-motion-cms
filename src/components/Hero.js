@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
 const HeroSection = styled.section`
-  z-index: 995;
   width: 100%;
   overflow: hidden;
   position: relative;
@@ -65,8 +64,7 @@ class Hero extends PureComponent {
 
 Hero.propTypes = {
   imgSrc: PropTypes.string.isRequired,
-  imgAlt: PropTypes.string.isRequired,
-  device: PropTypes.string.isRequired
+  imgAlt: PropTypes.string.isRequired
 };
 
 export default Hero;

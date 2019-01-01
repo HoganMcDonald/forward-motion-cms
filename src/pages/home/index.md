@@ -7,4 +7,5 @@ seo:
 hero:
   imgSrc: /img/sofa.jpg
   imgAlt: Blue sofa set against a white, brick wall
+  getStarted: Break the Cycle
 ---

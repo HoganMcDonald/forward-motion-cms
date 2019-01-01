@@ -5,14 +5,19 @@ import Helmet from 'react-helmet';
 
 import Layout from '../components/Layout';
 import Hero from '../components/Hero';
+import GetStarted from '../components/GetStarted';
 import Logo from '../svgs/Logo';
 
 export const HomePageTemplate = ({ home }) => (
-  <div>
+  <>
     <Hero {...home.hero}>
       <Logo />
+      <GetStarted
+        text={home.hero.getStarted}
+        onClick={() => console.log('clicked')}
+      />
     </Hero>
-  </div>
+  </>
 );
 
 class HomePage extends React.Component {
@@ -67,6 +72,7 @@ export const pageQuery = graphql`
             hero {
               imgSrc
               imgAlt
+              getStarted
             }
           }
         }

@@ -124,5 +124,6 @@ collections:
                 [
                   { label: Image, name: imageSrc, widget: image },
                   { label: Description, name: imageAlt, widget: string },
+                  { label: Button Text, name: getStarted, widget: string },
                 ],
             }
