@@ -47,8 +47,9 @@ const LinkItem = styled.li`
 `;
 
 const linkStyles = `
+  font-size: 1.2rem;
   text-decoration: none;
-  color: ${white};
+  color: ${black};
   transition: color 150ms ease-out;
 
   &:hover {
@@ -93,13 +94,13 @@ class NavBar extends Component {
   };
 
   render() {
-    const { menuItems = [], logoImage, device } = this.props;
+    const { menuItems = [], logoImage, device, showLogo = true } = this.props;
     const { open } = this.state;
 
     return device === 'large' ? (
       <Nav>
         <LogoLink to={'/'}>
-          <Logo src={logoImage.image} alt={logoImage.imageAlt} />
+          {showLogo && <Logo src={logoImage.image} alt={logoImage.imageAlt} />}
         </LogoLink>
         <LinkList>
           {menuItems.map((link, i) => (

@@ -18,12 +18,12 @@ const Main = styled.main`
 
 class Layout extends PureComponent {
   render() {
-    const { children, announcementBar, navBar, footer } = this.props;
+    const { children, announcementBar, navBar, footer, showLogo } = this.props;
     return (
       <DeviceProvider>
         <Container>
           <AnnouncementBar wait={2000} {...announcementBar} />
-          <NavBar {...navBar} />
+          <NavBar {...navBar} showLogo={showLogo} />
           <Main>{children}</Main>
           <Footer {...footer} />
         </Container>

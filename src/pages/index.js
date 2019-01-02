@@ -2,25 +2,66 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { graphql } from 'gatsby';
 import Helmet from 'react-helmet';
+import Observer from 'react-intersection-observer';
 
+import { withDevice } from '../utils/withMedia';
 import Layout from '../components/Layout';
 import Hero from '../components/Hero';
 import GetStarted from '../components/GetStarted';
+import Underline from '../components/Underline';
+import Container from '../components/Container';
 import Logo from '../svgs/Logo';
 
-export const HomePageTemplate = ({ home }) => (
-  <>
-    <Hero {...home.hero}>
-      <Logo />
-      <GetStarted
-        text={home.hero.getStarted}
-        onClick={() => console.log('clicked')}
-      />
-    </Hero>
-  </>
-);
+let HomePageTemplate = props => {
+  const { home, setLogo, device } = props;
+  let logoWidth;
+
+  switch (device) {
+    case 'large':
+      logoWidth = '50%';
+      break;
+    case 'medium':
+      logoWidth = '75%';
+      break;
+    default:
+      logoWidth = '100%';
+  }
+
+  return (
+    <>
+      <Hero {...home.hero}>
+        <Observer onChange={setLogo}>
+          {({ ref }) => <Logo width={logoWidth} logoRef={ref} />}
+        </Observer>
+        {['medium', 'large'].includes(device) && (
+          <GetStarted
+            text={home.hero.getStarted}
+            onClick={() => console.log('clicked')}
+          />
+        )}
+      </Hero>
+      {['xsmall', 'small'].includes(device) && (
+        <Container>
+          <GetStarted
+            text={home.hero.getStarted}
+            onClick={() => console.log('clicked')}
+          />
+          <Underline width="100px" />
+        </Container>
+      )}
+    </>
+  );
+};
+
+HomePageTemplate = withDevice(HomePageTemplate);
+
+export { HomePageTemplate };
 
 class HomePage extends React.Component {
+  state = {
+    showLogo: false
+  };
+
   render() {
     const { data } = this.props;
     const { frontmatter: home } = data.homePageData.edges[0].node;
@@ -34,13 +75,21 @@ class HomePage extends React.Component {
     } = home;
 
     return (
-      <Layout announcementBar={announcementBar} navBar={navBar} footer={footer}>
+      <Layout
+        announcementBar={announcementBar}
+        navBar={navBar}
+        footer={footer}
+        showLogo={this.state.showLogo}
+      >
         <Helmet>
           <meta name="title" content={seoTitle} />
           <meta name="description" content={seoDescription} />
           <title>{browserTitle}</title>
         </Helmet>
-        <HomePageTemplate home={home} />
+        <HomePageTemplate
+          home={home}
+          setLogo={inView => this.setState({ showLogo: !inView })}
+        />
       </Layout>
     );
   }
@@ -54,7 +103,7 @@ HomePage.propTypes = {
   })
 };
 
-export default HomePage;
+export default withDevice(HomePage);
 
 export const pageQuery = graphql`
   query HomePageQuery {
