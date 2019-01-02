@@ -717,7 +717,7 @@
     "@babel/plugin-transform-react-jsx-self" "^7.0.0"
     "@babel/plugin-transform-react-jsx-source" "^7.0.0"
 
-"@babel/runtime@^7.0.0", "@babel/runtime@^7.1.2":
+"@babel/runtime@^7.0.0", "@babel/runtime@^7.1.0", "@babel/runtime@^7.1.2":
   version "7.2.0"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.2.0.tgz#b03e42eeddf5898e00646e4c840fa07ba8dcad7f"
   integrity sha512-oouEibCbHMVdZSDlJBO6bZmID/zA/G/Qx3H1d3rSNPTD+L8UNKvCat7aKWSJ74zYbm5zWGh0GQN0hKj8zYFTCg==
@@ -11384,6 +11384,14 @@ react-input-autosize@^2.2.1:
   integrity sha512-3+K4CD13iE4lQQ2WlF8PuV5htfmTRLH6MDnfndHM6LuBRszuXnuyIfE7nhSKt8AzRBZ50bu0sAhkNMeS5pxQQA==
   dependencies:
     prop-types "^15.5.8"
+
+react-intersection-observer@^6.3.1:
+  version "6.3.1"
+  resolved "https://registry.yarnpkg.com/react-intersection-observer/-/react-intersection-observer-6.3.1.tgz#0068f43de43f5d765c9dee75360c3a96a6f4ae6e"
+  integrity sha512-qOPqMb/xHIaVckJuLYGV47zkM2a6Oxycos9p9A18CK54bTmuADmLrEsFe64Yt+6kOLnA1qbrnqml0AUoPfCLtQ==
+  dependencies:
+    "@babel/runtime" "^7.1.0"
+    invariant "^2.2.4"
 
 react-is@16.3.1:
   version "16.3.1"
