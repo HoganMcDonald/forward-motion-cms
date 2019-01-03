@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 
 import { withDevice } from '../utils/withMedia';
 import CloseIcon from '../svgs/CloseIcon';
-import { light, success, dark } from '../styles/theme';
+import { light, blue, dark } from '../styles/theme';
 
 const fadeIn = keyframes`
   from {
@@ -34,7 +34,7 @@ const Bar = styled.div`
   left: 0;
   right: 0;
   height: 2rem;
-  background-color: ${success};
+  background-color: ${blue};
   display: flex;
   justify-content: center;
   align-items: center;
@@ -93,9 +93,9 @@ class AnnouncementBar extends Component {
   }
 
   render() {
-    const { message, linkURL, device } = this.props;
+    const { message, linkURL, device, disabled } = this.props;
 
-    return (
+    return disabled ? null : (
       <Bar role="alert" out={!this.state.show} device={device}>
         {linkURL ? (
           <Link href={linkURL}>

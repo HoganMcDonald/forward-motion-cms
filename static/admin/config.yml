@@ -85,6 +85,7 @@ collections:
               widget: 'hidden',
               default: 'announcement-bar',
             }
+          - { label: Turn Off, name: disabled, widget: boolean }
           - { label: Message, name: message, widget: string }
           - {
               label: Link,
