@@ -168,3 +168,15 @@ collections:
                   { label: Content, name: content, widget: markdown },
                 ],
             }
+          - {
+              label: Fit,
+              name: fit,
+              widget: object,
+              fields:
+                [
+                  { label: Title, name: title, widget: string },
+                  { label: Image, name: imageSrc, widget: image },
+                  { label: Image Description, name: imageAlt, widget: string },
+                  { label: Content, name: content, widget: markdown },
+                ],
+            }

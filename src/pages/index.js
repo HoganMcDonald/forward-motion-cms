@@ -32,9 +32,7 @@ let HomePageTemplate = props => {
 
   const sarahPhoto = <PhotoBlock {...home.sarah} side="right" />;
 
-  // const fitPhoto = (
-  //   <PhotoBlock src={womanImage} alt="Woman sitting on sofa" side="left" />
-  // );
+  const fitPhoto = <PhotoBlock {...home.fit} side="left" />;
 
   return (
     <>
@@ -65,6 +63,10 @@ let HomePageTemplate = props => {
       <Container flexDirection="row">
         <TextBlock {...home.sarah}>{sarahPhoto}</TextBlock>
         {device === 'large' && sarahPhoto}
+      </Container>
+      <Container flexDirection="row">
+        {device === 'large' && fitPhoto}
+        <TextBlock {...home.fit}>{fitPhoto}</TextBlock>
       </Container>
     </>
   );
@@ -150,6 +152,12 @@ export const pageQuery = graphql`
               insurranceHref
             }
             sarah {
+              title
+              imageSrc
+              imageAlt
+              content
+            }
+            fit {
               title
               imageSrc
               imageAlt

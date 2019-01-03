@@ -36,4 +36,22 @@ sarah:
     For clients of FMT, this means that a seasoned, fully-licensed therapist is working collaboratively with me (behind the scenes) to oversee and ensure that the highest level of quality and client care are being provided.
 
     You get an extra set of ears on the progress of our work together (#twoforone), and I get the opportunity to have ongoing professional guidance and input as I continue to work toward licensure.
+fit:
+  title: A Good Fit?
+  imageSrc: /img/woman.jpg
+  imageAlt: Woman sitting on sofa looking out window
+  content: |-
+    So, here's the thing... with therapy, just like most things in life, connection and a good fit matter. AND... These things are subjective; what's 'good' for one person/couple/family, very well may not be 'good' for another.
+
+    It's important when deciding to work with a therapist (any therapist) that you know the following:
+
+    1. Therapists are a dime a dozen. It's worth your time & effort to find a therapist you and yours are comfortable with.
+
+    2. Therapy is a process. What has taken decades to create, will not change overnight. Being comfortable with your chosen therapist is vital - because uncomfortable things will inevitably come up. The last thing anyone needs is to be working through their baggage in the presence of someone who doesn't feel safe to them. 
+
+    What I can offer you (spoiler alert: it's not all the answers!!), is a space filled with genuine care and concern for you as a human. I'll share my insight and knowledge that is rooted in Family Systems Theory, and provide you the opportunity to gain insight about yourself and your relationships in a safe space. Cheers to the #judgefreezone!
+
+    More questions?  Want to discuss a specific situation? 
+
+    Please don't hesitate to reach out - I'm happy to schedule a complementary 30 minute phone consultation.
 ---
