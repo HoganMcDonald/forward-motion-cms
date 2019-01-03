@@ -137,3 +137,22 @@ collections:
                   { label: Content, name: content, widget: markdown },
                 ],
             }
+          - {
+              label: Fees,
+              name: fees,
+              widget: object,
+              fields:
+                [
+                  {
+                    label: Family/Couple Pricing,
+                    name: family,
+                    widget: number,
+                  },
+                  { label: Individual Pricing, name: family, widget: number },
+                  {
+                    label: Link for Insurrance,
+                    name: insurranceHref,
+                    string: string,
+                  },
+                ],
+            }

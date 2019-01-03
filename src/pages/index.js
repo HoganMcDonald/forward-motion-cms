@@ -11,6 +11,7 @@ import GetStarted from '../components/GetStarted';
 import Underline from '../components/Underline';
 import Container from '../components/Container';
 import TextBlock from '../components/TextBlock';
+import Fees from '../components/Fees';
 import Logo from '../svgs/Logo';
 
 let HomePageTemplate = props => {
@@ -51,8 +52,9 @@ let HomePageTemplate = props => {
         </Container>
       )}
       <Container>
-        <TextBlock title={home.therapy.title} content={home.therapy.content} />
+        <TextBlock {...home.therapy} />
       </Container>
+      <Fees {...home.fees} />
     </>
   );
 };
@@ -130,6 +132,11 @@ export const pageQuery = graphql`
             therapy {
               title
               content
+            }
+            fees {
+              individual
+              family
+              insurranceHref
             }
           }
         }

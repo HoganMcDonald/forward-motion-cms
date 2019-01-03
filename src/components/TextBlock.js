@@ -11,10 +11,6 @@ const Wrapper = styled.section`
   margin: 1rem;
 `;
 
-const Paragraph = styled.p`
-  margin-bottom: 0;
-`;
-
 class TextBlock extends PureComponent {
   render() {
     const { title, content, children, device } = this.props;

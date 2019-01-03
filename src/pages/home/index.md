@@ -17,9 +17,13 @@ therapy:
 
     I received my MA in Marriage and Family Therapy from St. Mary’s University of MN, and my BS in Community Psychology from St Cloud State University.
 
-    I am working toward Licensure and all therapeutic services I provide are under the supervision of Shawn R Neel, MS, LMFT with The Institute for Relational Well-Being. He is an AAMFT and MN State Approved MFT Supervisor and can be reached at supervision@irwb.org
+    I am working toward Licensure and all therapeutic services I provide are under the supervision of Shawn R Neel, MS, LMFT with The Institute for Relational Well-Being. He is an AAMFT and MN State Approved MFT Supervisor and can be reached at <supervision@irwb.org>
 
     For clients of FMT, this means that a seasoned, fully-licensed therapist is working collaboratively with me (behind the scenes) to oversee and ensure that the highest level of quality and client care are being provided.
 
     You get an extra set of ears on the progress of our work together (#twoforone), and I get the opportunity to have ongoing professional guidance and input as I continue to work toward licensure.
+fees:
+  individual: 100
+  family: 110
+  insurranceHref: https://google.com
 ---
