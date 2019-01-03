@@ -10,6 +10,7 @@ import Hero from '../components/Hero';
 import GetStarted from '../components/GetStarted';
 import Underline from '../components/Underline';
 import Container from '../components/Container';
+import TextBlock from '../components/TextBlock';
 import Logo from '../svgs/Logo';
 
 let HomePageTemplate = props => {
@@ -49,6 +50,9 @@ let HomePageTemplate = props => {
           <Underline width="100px" />
         </Container>
       )}
+      <Container>
+        <TextBlock title={home.therapy.title} content={home.therapy.content} />
+      </Container>
     </>
   );
 };
@@ -122,6 +126,10 @@ export const pageQuery = graphql`
               imgSrc
               imgAlt
               getStarted
+            }
+            therapy {
+              title
+              content
             }
           }
         }

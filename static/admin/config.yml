@@ -127,3 +127,13 @@ collections:
                   { label: Button Text, name: getStarted, widget: string },
                 ],
             }
+          - {
+              label: Therapy,
+              name: therapy,
+              widget: object,
+              fields:
+                [
+                  { label: Title, name: title, widget: string },
+                  { label: Content, name: content, widget: markdown },
+                ],
+            }
