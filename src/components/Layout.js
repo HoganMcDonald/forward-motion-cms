@@ -59,6 +59,11 @@ export const query = graphql`
               linkURL
             }
             copyrightHolder
+            contact {
+              name
+              address
+              contact
+            }
           }
         }
       }

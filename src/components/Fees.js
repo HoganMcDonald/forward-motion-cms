@@ -111,7 +111,7 @@ class Fees extends PureComponent {
           <FeeDetails>
             <FeeGroup>
               <Fee>
-                <FeeType> </FeeType>
+                <FeeType>Insurrance</FeeType>
                 <FeePrice>
                   Available through&nbsp;
                   <InsurranceLink
