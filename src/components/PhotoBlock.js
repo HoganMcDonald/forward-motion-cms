@@ -44,8 +44,8 @@ class Photo extends PureComponent {
 }
 
 Photo.propTypes = {
-  src: PropTypes.string.isRequired,
-  alt: PropTypes.string.isRequired,
+  imageSrc: PropTypes.string.isRequired,
+  imageAlt: PropTypes.string.isRequired,
   side: PropTypes.string
 };
 
