@@ -123,7 +123,7 @@ collections:
               fields:
                 [
                   { label: Image, name: imageSrc, widget: image },
-                  { label: Description, name: imageAlt, widget: string },
+                  { label: Image Description, name: imageAlt, widget: string },
                   { label: Button Text, name: getStarted, widget: string },
                 ],
             }
@@ -154,5 +154,17 @@ collections:
                     name: insurranceHref,
                     string: string,
                   },
+                ],
+            }
+          - {
+              label: Sarah,
+              name: sarah,
+              widget: object,
+              fields:
+                [
+                  { label: Title, name: title, widget: string },
+                  { label: Image, name: imageSrc, widget: image },
+                  { label: Image Description, name: imageAlt, widget: string },
+                  { label: Content, name: content, widget: markdown },
                 ],
             }

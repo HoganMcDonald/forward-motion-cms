@@ -13,6 +13,7 @@ import Container from '../components/Container';
 import TextBlock from '../components/TextBlock';
 import Fees from '../components/Fees';
 import Logo from '../svgs/Logo';
+import PhotoBlock from '../components/PhotoBlock';
 
 let HomePageTemplate = props => {
   const { home, setLogo, device } = props;
@@ -28,6 +29,12 @@ let HomePageTemplate = props => {
     default:
       logoWidth = '100%';
   }
+
+  const sarahPhoto = <PhotoBlock {...home.sarah} side="right" />;
+
+  // const fitPhoto = (
+  //   <PhotoBlock src={womanImage} alt="Woman sitting on sofa" side="left" />
+  // );
 
   return (
     <>
@@ -55,6 +62,10 @@ let HomePageTemplate = props => {
         <TextBlock {...home.therapy} />
       </Container>
       <Fees {...home.fees} />
+      <Container flexDirection="row">
+        <TextBlock {...home.sarah}>{sarahPhoto}</TextBlock>
+        {device === 'large' && sarahPhoto}
+      </Container>
     </>
   );
 };
@@ -137,6 +148,12 @@ export const pageQuery = graphql`
               individual
               family
               insurranceHref
+            }
+            sarah {
+              title
+              imageSrc
+              imageAlt
+              content
             }
           }
         }
