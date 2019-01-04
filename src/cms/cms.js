@@ -8,6 +8,7 @@ import typography from '../styles/typography';
 CMS.registerPreviewStyle(typography.toString(), { raw: true });
 
 // Previews
+// CMS.registerPreviewTemplate('forms', FormPAgePreview);
 CMS.registerPreviewTemplate('home', HomePagePreview);
 CMS.registerPreviewTemplate('navbar', NavBarPreview);
 CMS.registerPreviewTemplate('footer', FooterPreview);
