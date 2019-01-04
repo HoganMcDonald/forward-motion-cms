@@ -20,6 +20,7 @@ const Button = styled(AnchorLink)`
   padding: 0.25rem 1rem;
   transition: box-shadow 150ms ease-in, background-color 100ms ease-out;
   cursor: pointer;
+  text-decoration: none;
 
   &:focus {
     box-shadow: 0 0 0 4px ${blue_light};

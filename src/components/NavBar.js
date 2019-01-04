@@ -12,7 +12,7 @@ import MobileMenu from './MobileMenu';
 import Logo from '../svgs/Logo';
 
 const Nav = styled.nav`
-  z-index: 1;
+  z-index: 999;
   position: fixed;
   top: 2rem;
   left: 2rem;

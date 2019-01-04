@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
 const HeroSection = styled.section`
+  z-index: 998;
   width: 100%;
   overflow: hidden;
   position: relative;

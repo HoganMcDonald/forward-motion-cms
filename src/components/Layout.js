@@ -1,7 +1,7 @@
 import React, { PureComponent } from 'react';
 import styled from 'styled-components';
 
-import { DeviceProvider } from '../utils/withMedia';
+import { DeviceProvider, withDevice } from '../utils/withMedia';
 import AnnouncementBar from './AnnouncementBar';
 import NavBar from './NavBar';
 import Footer from './Footer';
@@ -16,6 +16,17 @@ const Main = styled.main`
   flex: 1 0 auto;
 `;
 
+const Background = withDevice(styled.div`
+  z-index: 997;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 6rem;
+  background-color: white;
+  display: ${props => (props.device === 'large' ? 'block' : 'none')};
+`);
+
 class Layout extends PureComponent {
   render() {
     const { children, announcementBar, navBar, footer, showLogo } = this.props;
@@ -24,7 +35,10 @@ class Layout extends PureComponent {
         <Container>
           <AnnouncementBar wait={2000} {...announcementBar} />
           <NavBar {...navBar} showLogo={showLogo} />
-          <Main>{children}</Main>
+          <Main>
+            <Background />
+            {children}
+          </Main>
           <Footer {...footer} />
         </Container>
       </DeviceProvider>
