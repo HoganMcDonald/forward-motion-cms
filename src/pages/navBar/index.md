@@ -4,11 +4,19 @@ logoImage:
   image: /img/site-logo.svg
   imageAlt: Website Logo
 menuItems:
-  - label: home
+  - label: therapy
     linkType: internal
-    linkURL: /
-  - label: github
-    linkType: external
-    linkURL: 'https://github.com/HoganMcDonald/gatsby-starter'
+    linkURL: '#therapy'
+  - label: about
+    linkType: internal
+    linkURL: '#about'
+  - label: fees
+    linkType: internal
+    linkURL: '#fees'
+  - label: contact
+    linkType: internal
+    linkURL: '#contact'
+  - label: forms
+    linkType: internal
+    linkURL: /forms
 ---
-

@@ -85,6 +85,7 @@ collections:
               widget: 'hidden',
               default: 'announcement-bar',
             }
+          - { label: Turn Off, name: disabled, widget: boolean }
           - { label: Message, name: message, widget: string }
           - {
               label: Link,
@@ -95,6 +96,37 @@ collections:
   - name: 'pages'
     label: 'Pages'
     files:
+      - file: 'src/pages/forms/index.md'
+        label: Forms
+        name: forms
+        fields:
+          - {
+              label: 'Template Key',
+              name: 'templateKey',
+              widget: 'hidden',
+              default: 'forms-page',
+            }
+          - {
+              label: SEO,
+              name: seo,
+              widget: object,
+              fields:
+                [
+                  { label: Title, name: title, widget: string },
+                  { label: Description, name: description, widget: string },
+                  { label: Browser Title, name: browserTitle, widget: string },
+                ],
+            }
+          - {
+              label: Forms,
+              name: forms,
+              widget: list,
+              fields:
+                [
+                  { label: Name, name: name, widget: string },
+                  { label: File, name: file, widget: file },
+                ],
+            }
       - file: 'src/pages/home/index.md'
         label: 'Home'
         name: 'home'
@@ -114,5 +146,69 @@ collections:
                   { label: Title, name: title, widget: string },
                   { label: Description, name: description, widget: string },
                   { label: Browser Title, name: browserTitle, widget: string },
+                ],
+            }
+          - {
+              label: Hero,
+              name: hero,
+              widget: object,
+              fields:
+                [
+                  { label: Image, name: imageSrc, widget: image },
+                  { label: Image Description, name: imageAlt, widget: string },
+                  { label: Button Text, name: getStarted, widget: string },
+                ],
+            }
+          - {
+              label: Therapy,
+              name: therapy,
+              widget: object,
+              fields:
+                [
+                  { label: Title, name: title, widget: string },
+                  { label: Content, name: content, widget: markdown },
+                ],
+            }
+          - {
+              label: Fees,
+              name: fees,
+              widget: object,
+              fields:
+                [
+                  {
+                    label: Family/Couple Pricing,
+                    name: family,
+                    widget: number,
+                  },
+                  { label: Individual Pricing, name: family, widget: number },
+                  {
+                    label: Link for Insurrance,
+                    name: insurranceHref,
+                    string: string,
+                  },
+                ],
+            }
+          - {
+              label: Sarah,
+              name: sarah,
+              widget: object,
+              fields:
+                [
+                  { label: Title, name: title, widget: string },
+                  { label: Image, name: imageSrc, widget: image },
+                  { label: Image Description, name: imageAlt, widget: string },
+                  { label: Content, name: content, widget: markdown },
+                ],
+            }
+          - {
+              label: Fit,
+              name: fit,
+              widget: object,
+              fields:
+                [
+                  { label: Title, name: title, widget: string },
+                  { label: Image, name: imageSrc, widget: image },
+                  { label: Image Description, name: imageAlt, widget: string },
+                  { label: Content, name: content, widget: markdown },
                 ],
             }
