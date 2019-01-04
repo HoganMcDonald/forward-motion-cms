@@ -1,20 +1,19 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 import InputMask from 'react-input-mask';
-import ReactMarkdown from 'react-markdown';
 
-import { blue, blue_light, black, white, light } from '../styles/theme';
+import { blue, blue_light, white } from '../styles/theme';
 
 const FormContainer = styled.div`
   position: relative;
   width: calc(100% - 4rem);
-  max-width: 1200px;
+  max-width: 600px;
   margin: auto;
   box-sizing: content-box;
   background-color: white;
   border: solid 2px ${blue};
   display: grid;
-  grid-template-columns: 70% auto;
+  grid-template-columns: auto;
   grid-template-rows: repeat(3, auto);
 
   @media (max-width: 999px) {
@@ -27,10 +26,6 @@ const Form = styled.form`
   grid-row: 1 / -1;
   width: 100%;
   height: 100%;
-
-  @media (min-width: 1000px) {
-    border-right: solid 2px ${black};
-  }
 `;
 
 const FormItem = styled.label`
@@ -76,54 +71,6 @@ const Submit = styled.input`
   }
 `;
 
-const NameSection = styled.div`
-  width: 100%;
-  height: 100%;
-  padding: 2rem;
-  box-sizing: border-box;
-  background-color: ${blue_light};
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-
-  * {
-    margin: 0;
-  }
-`;
-
-const AddressSection = styled.div`
-  width: 100%;
-  height: 100%;
-  padding: 2rem;
-  box-sizing: border-box;
-  background-color: ${light};
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-
-  * {
-    margin: 0;
-  }
-`;
-
-const ContactSection = styled.div`
-  width: 100%;
-  height: 100%;
-  padding: 2rem;
-  box-sizing: border-box;
-  background-color: ${white};
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-
-  * {
-    margin: 0;
-  }
-`;
-
 class ContatForm extends Component {
   state = {
     name: '',
@@ -143,8 +90,6 @@ class ContatForm extends Component {
   };
 
   render() {
-    const { name, address, contact } = this.props;
-
     return (
       <FormContainer>
         <Form netlify>
@@ -187,21 +132,6 @@ class ContatForm extends Component {
           </FormItem>
           <Submit type="submit" value="submit" />
         </Form>
-        <NameSection>
-          <span>
-            <ReactMarkdown source={name} />
-          </span>
-        </NameSection>
-        <AddressSection>
-          <span>
-            <ReactMarkdown source={address} />
-          </span>
-        </AddressSection>
-        <ContactSection>
-          <span>
-            <ReactMarkdown source={contact} />
-          </span>
-        </ContactSection>
       </FormContainer>
     );
   }

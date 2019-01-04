@@ -102,7 +102,7 @@ class Fees extends PureComponent {
     const { individual, family, insurranceHref } = this.props;
 
     return (
-      <Background>
+      <Background id="fees">
         <FeeContainer>
           <SectionHeadings>
             <Heading>Fees</Heading>

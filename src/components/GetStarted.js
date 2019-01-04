@@ -1,12 +1,13 @@
 import React, { PureComponent } from 'react';
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 import { blue, white, blue_light, blue_dark } from '../styles/theme';
 
 import RightArrow from '../svgs/RightArrow';
 
-const Button = styled.button`
+const Button = styled(AnchorLink)`
   background-color: ${blue};
   border-radius: 999px;
   border: none;
@@ -32,9 +33,9 @@ const Button = styled.button`
 
 class GetStarted extends PureComponent {
   render() {
-    const { onClick, text } = this.props;
+    const { text } = this.props;
     return (
-      <Button onClick={onClick}>
+      <Button href="#contact">
         {text}
         <RightArrow />
       </Button>
@@ -43,8 +44,7 @@ class GetStarted extends PureComponent {
 }
 
 GetStarted.propTypes = {
-  text: PropTypes.string.isRequired,
-  onClick: PropTypes.func.isRequired
+  text: PropTypes.string.isRequired
 };
 
 export default GetStarted;

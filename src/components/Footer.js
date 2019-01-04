@@ -30,7 +30,7 @@ class Footer extends PureComponent {
     const { socialUrls = [], copyrightHolder, contact } = this.props;
 
     return (
-      <FooterSection>
+      <FooterSection id="contact">
         <ContatForm {...contact} />
         <FooterContainer>
           {!!socialUrls.length && (

@@ -2,12 +2,14 @@ import React, { Component } from 'react';
 import { Link } from 'gatsby';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 import { withDevice } from '../utils/withMedia';
 import { white, link, black } from '../styles/theme';
 import MenuIcon from '../svgs/MenuIcon';
 import CloseIcon from '../svgs/CloseIcon';
-import MobileMenu from '../components/MobileMenu';
+import MobileMenu from './MobileMenu';
+import Logo from '../svgs/Logo';
 
 const Nav = styled.nav`
   z-index: 1;
@@ -25,11 +27,6 @@ const Nav = styled.nav`
 
 const LogoLink = styled(Link)`
   height: 100%;
-`;
-
-const Logo = styled.img`
-  height: 100%;
-  margin: 0;
 `;
 
 const LinkList = styled.ul`
@@ -61,7 +58,7 @@ const LinkTag = styled(Link)`
   ${linkStyles}
 `;
 
-const A = styled.a`
+const A = styled(AnchorLink)`
   ${linkStyles}
 `;
 
@@ -94,19 +91,21 @@ class NavBar extends Component {
   };
 
   render() {
-    const { menuItems = [], logoImage, device, showLogo = true } = this.props;
+    const { menuItems = [], device, showLogo = true } = this.props;
     const { open } = this.state;
 
     return device === 'large' ? (
       <Nav>
-        <LogoLink to={'/'}>
-          {showLogo && <Logo src={logoImage.image} alt={logoImage.imageAlt} />}
-        </LogoLink>
+        <LogoLink to={'/'}>{showLogo && <Logo />}</LogoLink>
         <LinkList>
           {menuItems.map((link, i) => (
             <LinkItem key={i}>
               {link.linkType === 'internal' ? (
-                <LinkTag to={link.linkURL}>{link.label}</LinkTag>
+                link.linkURL[0] === '#' ? (
+                  <A href={link.linkURL}>{link.label}</A>
+                ) : (
+                  <LinkTag to={link.linkURL}>{link.label}</LinkTag>
+                )
               ) : (
                 <A href={link.linkURL}>{link.label}</A>
               )}
