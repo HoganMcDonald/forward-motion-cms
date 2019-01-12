@@ -10,6 +10,10 @@ exports.onClientEntry = () => {
       features.push('IntersectionObserver');
     }
 
+    if (!window.fetch) {
+      features.push('fetch');
+    }
+
     if (features.length) {
       const s = document.createElement('script');
       s.src = `https://cdn.polyfill.io/v2/polyfill.min.js?features=${features.join(
