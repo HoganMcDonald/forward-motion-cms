@@ -4,12 +4,6 @@ import InputMask from 'react-input-mask';
 
 import { blue, blue_light, white } from '../styles/theme';
 
-function encode(data) {
-  return Object.keys(data)
-    .map(key => encodeURIComponent(key) + '=' + encodeURIComponent(data[key]))
-    .join('&');
-}
-
 const FormContainer = styled.div`
   position: relative;
   width: calc(100% - 4rem);

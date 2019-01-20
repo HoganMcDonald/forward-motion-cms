@@ -5,6 +5,7 @@ seo:
   description: Some description of your website
   title: Forms - Forward Motion Therapy
 forms:
-  - name: some pdf
+  - name: Some Pdf
+    description: Bring this in for your first session.
     form: /img/sample.pdf
 ---

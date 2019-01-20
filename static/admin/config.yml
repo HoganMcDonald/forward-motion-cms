@@ -124,6 +124,7 @@ collections:
               fields:
                 [
                   { label: Name, name: name, widget: string },
+                  { label: Description, name: description, widget: string },
                   { label: File, name: file, widget: file },
                 ],
             }
