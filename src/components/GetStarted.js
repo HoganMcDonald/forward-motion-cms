@@ -36,7 +36,7 @@ class GetStarted extends PureComponent {
   render() {
     const { text } = this.props;
     return (
-      <Button href="#contact">
+      <Button href="#contact" offset="100">
         {text}
         <RightArrow />
       </Button>

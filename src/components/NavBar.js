@@ -102,7 +102,9 @@ class NavBar extends Component {
             <LinkItem key={i}>
               {link.linkType === 'internal' ? (
                 link.linkURL[0] === '#' ? (
-                  <A href={link.linkURL}>{link.label}</A>
+                  <A href={link.linkURL} offset="100">
+                    {link.label}
+                  </A>
                 ) : (
                   <LinkTag to={link.linkURL}>{link.label}</LinkTag>
                 )
