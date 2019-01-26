@@ -8,11 +8,12 @@ import Container from './Container';
 
 const Background = styled.section`
   background-color: ${black};
-  padding-top: ;
 `;
 
 const FeeContainer = styled(Container)`
   align-items: baseline;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 `;
 
 const SectionHeadings = styled.div`
@@ -86,12 +87,12 @@ const Fee = styled.div`
   }
 `;
 
-const FeeType = styled.h3`
+const FeeType = styled.h4`
   color: ${white};
   margin: 0;
 `;
 
-const FeePrice = styled.h3`
+const FeePrice = styled.h4`
   color: ${white};
   font-weight: 400;
   font-style: italic;
