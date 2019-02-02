@@ -6,6 +6,8 @@ seo:
   title: Forward Motion Therapy
 hero:
   getStarted: Break the Cycle
+  imageAlt: empty blue sofa set against white brick wall
+  imageSrc: /img/sofa.jpg
 therapy:
   content: >-
     Therapy at FMT focuses on relationships.  on helping individuals & couples
