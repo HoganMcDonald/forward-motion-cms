@@ -12,19 +12,17 @@ const { Provider, Consumer } = createContext('large');
 class DeviceProvider extends Component {
   calcDevice = () => {
     for (let breakpoint in breakpoints) {
-      const { matches } =
-        typeof window !== `undefined`
-          ? window.matchMedia(breakpoints[breakpoint])
-          : 'large';
+      const { matches } = window.matchMedia(breakpoints[breakpoint]);
       if (matches) return breakpoint;
     }
   };
 
   state = {
-    device: this.calcDevice()
+    device: ''
   };
 
   componentDidMount() {
+    this.updateDeviceType();
     window.addEventListener('resize', this.updateDeviceType, true);
   }
 
