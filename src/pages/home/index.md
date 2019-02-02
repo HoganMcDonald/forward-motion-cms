@@ -8,10 +8,10 @@ hero:
   getStarted: Break the Cycle
 therapy:
   content: >-
-    Therapy at FMT is focused on helping individuals & couples gain movement
-    from the cyclical ruts we often find ourselves in. Relationships are at the
-    core of our human experience and issues within those relationships are
-    unavoidable (despite our best efforts!) 
+    Therapy at FMT focuses on relationships.  on helping individuals & couples
+    gain movement from the cyclical ruts we often find ourselves in.
+    Relationships are at the core of our human experience and issues within
+    those relationships are unavoidable (despite our best efforts!) 
 
 
     In therapy, we will explore the underlying process that continues to play
@@ -28,8 +28,8 @@ therapy:
     be utilized to work for you & your goals.
   title: What Therapy Looks Like
 fees:
-  family: 110
-  insurranceHref: 'https://google.com'
+  family: '100'
+  insurranceHref: 'http://minncp.com/meet-us/providers/#post-1529'
 sarah:
   content: >-
     I believe life is about who you are in relationship, whether that
