@@ -185,7 +185,12 @@ collections:
                   {
                     label: Link for Insurrance,
                     name: insurranceHref,
-                    string: string,
+                    widget: string,
+                  },
+                  {
+                    label: Text for Insurance Link,
+                    name: insuranceMessage,
+                    widget: string,
                   },
                 ],
             }

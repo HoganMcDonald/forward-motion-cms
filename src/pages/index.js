@@ -137,8 +137,8 @@ export const pageQuery = graphql`
               description
             }
             hero {
-              imgSrc
-              imgAlt
+              imageSrc
+              imageAlt
               getStarted
             }
             therapy {
@@ -149,6 +149,7 @@ export const pageQuery = graphql`
               individual
               family
               insurranceHref
+              insuranceMessage
             }
             sarah {
               title

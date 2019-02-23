@@ -8,10 +8,9 @@ forms:
   - description: Snapshot of defensiveness and ways to help tame it.
     file: /img/fmt-defenses.pdf
     name: Feeling Defensive?
-  - description: >-
+  - description:
       As little or as much info shared as you'd like. No right or wrong with
       this one.
     file: /img/fmt-family-history.pdf
     name: Nature vs Nurture - let's talk family of origin.
 ---
-

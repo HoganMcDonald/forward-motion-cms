@@ -148,7 +148,7 @@ export const pageQuery = graphql`
             forms {
               name
               description
-              form
+              file
             }
           }
         }
