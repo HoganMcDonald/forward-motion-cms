@@ -52,11 +52,11 @@ const Content = styled.div`
 
 class Hero extends PureComponent {
   render() {
-    const { imgSrc, imgAlt, children } = this.props;
+    const { imageSrc, imageAlt, children } = this.props;
 
     return (
       <HeroSection>
-        <HeroImage src={imgSrc} alt={imgAlt} />
+        <HeroImage src={imageSrc} alt={imageAlt} />
         <Content>{children}</Content>
       </HeroSection>
     );
@@ -64,8 +64,8 @@ class Hero extends PureComponent {
 }
 
 Hero.propTypes = {
-  imgSrc: PropTypes.string.isRequired,
-  imgAlt: PropTypes.string.isRequired
+  imageSrc: PropTypes.string.isRequired,
+  imageAlt: PropTypes.string.isRequired
 };
 
 export default Hero;

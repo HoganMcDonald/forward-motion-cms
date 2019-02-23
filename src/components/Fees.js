@@ -100,7 +100,7 @@ const FeePrice = styled.h4`
 
 class Fees extends PureComponent {
   render() {
-    const { individual, family, insurranceHref } = this.props;
+    const { individual, family, insurranceHref, insuranceMessage } = this.props;
 
     return (
       <Background id="fees">
@@ -111,19 +111,20 @@ class Fees extends PureComponent {
           </SectionHeadings>
           <FeeDetails>
             <FeeGroup>
-              <Fee>
-                <FeeType>Insurrance</FeeType>
-                <FeePrice>
-                  Available through&nbsp;
-                  <InsurranceLink
-                    href={insurranceHref}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    CHANGE ME
-                  </InsurranceLink>
-                </FeePrice>
-              </Fee>
+              {insurranceHref && insuranceMessage && (
+                <Fee>
+                  <FeeType>Insurrance</FeeType>
+                  <FeePrice>
+                    <InsurranceLink
+                      href={insurranceHref}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {insuranceMessage}
+                    </InsurranceLink>
+                  </FeePrice>
+                </Fee>
+              )}
               <Fee>
                 <FeeType>Sliding Scale/Reduced Fee</FeeType>
                 <FeePrice>Available</FeePrice>
