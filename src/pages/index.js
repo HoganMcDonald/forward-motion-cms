@@ -148,7 +148,7 @@ export const pageQuery = graphql`
             fees {
               individual
               family
-              insurranceHref
+              insuranceHref
               insuranceMessage
             }
             sarah {

@@ -32,7 +32,7 @@ therapy:
 fees:
   family: '110'
   individual: '100'
-  insurranceHref: 'http://minncp.com/meet-us/providers/#post-1529'
+  insuranceHref: 'http://minncp.com/meet-us/providers/#post-1529'
   insuranceMessage: 'Available through MCP'
 sarah:
   content: >-

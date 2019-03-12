@@ -2,7 +2,7 @@ import React, { PureComponent } from 'react';
 import styled from 'styled-components';
 import { Link } from 'gatsby';
 
-import { primary, white } from '../styles/theme';
+import { blue, white } from '../styles/theme';
 
 const Overlay = styled.div`
   z-index: 999;
@@ -11,7 +11,7 @@ const Overlay = styled.div`
   right: 0;
   bottom: 0;
   left: 0;
-  background-color: ${primary};
+  background-color: ${blue};
   display: flex;
   flex-direction: column;
   align-items: center;

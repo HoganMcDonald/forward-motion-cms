@@ -183,8 +183,8 @@ collections:
                   },
                   { label: Individual Pricing, name: family, widget: number },
                   {
-                    label: Link for Insurrance,
-                    name: insurranceHref,
+                    label: Link for Insurance,
+                    name: insuranceHref,
                     widget: string,
                   },
                   {
