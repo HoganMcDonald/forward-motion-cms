@@ -10,7 +10,7 @@ hero:
   imageSrc: /img/sofa.jpg
 therapy:
   content: >-
-    Therapy at FMT focuses on relationships.  on helping individuals & couples
+    Therapy at FMT focuses on relationships. On helping individuals & couples
     gain movement from the cyclical ruts we often find ourselves in.
     Relationships are at the core of our human experience and issues within
     those relationships are unavoidable (despite our best efforts!) 
@@ -51,13 +51,14 @@ sarah:
 
 
     I received my MA in Marriage and Family Therapy from St. Mary’s University
-    of MN, and my BS in Community Psychology from St Cloud State University.
+    of MN, and my BS in Community Psychology, with a minor in Applied Behavior
+    Analysis, from St. Cloud State University.
 
 
     I am working toward Licensure and all therapeutic services I provide are
     under the supervision of Shawn R Neel, MS, LMFT with The Institute for
     Relational Well-Being. He is an AAMFT and MN State Approved MFT Supervisor
-    and can be reached at <supervision@irwb.org>
+    and can be reached at <mailto:supervision@irwb.org>
 
 
     For clients of FMT, this means that a seasoned, fully-licensed therapist is
