@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'gatsby';
 import PropTypes from 'prop-types';
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 import { withDevice } from '../utils/withMedia';
@@ -29,6 +29,11 @@ const LogoLink = styled(Link)`
   height: 100%;
 `;
 
+const StyledLogo = styled(Logo)`
+  height: 100%;
+  width: auto;
+`;
+
 const LinkList = styled.ul`
   margin: 0;
   list-style: none;
@@ -43,7 +48,7 @@ const LinkItem = styled.li`
   font-weight: 700;
 `;
 
-const linkStyles = `
+const linkStyles = css`
   font-size: 1.2rem;
   text-decoration: none;
   color: ${black};
@@ -96,7 +101,7 @@ class NavBar extends Component {
 
     return device === 'large' ? (
       <Nav>
-        <LogoLink to={'/'}>{showLogo && <Logo />}</LogoLink>
+        <LogoLink to={'/'}>{showLogo && <StyledLogo />}</LogoLink>
         <LinkList>
           {menuItems.map((link, i) => (
             <LinkItem key={i}>

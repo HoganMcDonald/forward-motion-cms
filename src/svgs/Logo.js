@@ -12,7 +12,7 @@ const Svg = styled.svg`
 
 class Logo extends PureComponent {
   render() {
-    const { width, logoRef } = this.props;
+    const { width, logoRef, ...rest } = this.props;
 
     return (
       <Svg
@@ -20,6 +20,7 @@ class Logo extends PureComponent {
         xmlns="http://www.w3.org/2000/svg"
         viewBox="205.009 1296.804 248.991 58.196"
         ref={logoRef}
+        {...rest}
       >
         <g id="Group_31" data-name="Group 31" transform="translate(0 1220)">
           <g id="fmt__logo-01" transform="translate(205.009 76.804)">
