@@ -30,10 +30,9 @@ therapy:
     be utilized to work for you & your goals.
   title: What Therapy Looks Like
 fees:
-  family: '110'
-  individual: '100'
+  family: '120'
   insuranceHref: 'http://minncp.com/meet-us/providers/#post-1529'
-  insuranceMessage: 'Available through MCP'
+  insuranceMessage: In-Network Options Available Through Minnesota Center for Psychology
 sarah:
   content: >-
     I believe life is about who you are in relationship, whether that
@@ -111,3 +110,4 @@ fit:
   imageSrc: /img/woman.jpg
   title: A Good Fit?
 ---
+
