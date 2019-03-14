@@ -31,6 +31,7 @@ therapy:
   title: What Therapy Looks Like
 fees:
   family: '120'
+  individual: '100'
   insuranceHref: 'http://minncp.com/meet-us/providers/#post-1529'
   insuranceMessage: In-Network Options Available Through Minnesota Center for Psychology
   length: 'Sessions are about 55 minutes.'
