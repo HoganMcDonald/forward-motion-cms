@@ -7,7 +7,7 @@ seo:
 hero:
   getStarted: Break the Cycle
   imageAlt: empty blue sofa set against white brick wall
-  imageSrc: /img/sofa.jpg
+  imageSrc: /img/sofa.compressed.jpg
 therapy:
   content: >-
     Therapy at FMT focuses on relationships. On helping individuals & couples
