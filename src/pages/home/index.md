@@ -34,6 +34,7 @@ fees:
   individual: '100'
   insuranceHref: 'http://minncp.com/meet-us/providers/#post-1529'
   insuranceMessage: 'Available through MCP'
+  length: 'Sessions are about 55 minutes.'
 sarah:
   content: >-
     I believe life is about who you are in relationship, whether that

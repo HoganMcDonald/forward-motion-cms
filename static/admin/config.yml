@@ -196,6 +196,11 @@ collections:
                     name: insuranceMessage,
                     widget: string,
                   },
+                  {
+                    label: Session Length Message,
+                    name: length,
+                    widget: string,
+                  },
                 ],
             }
           - {

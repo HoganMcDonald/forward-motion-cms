@@ -150,6 +150,7 @@ export const pageQuery = graphql`
               family
               insuranceHref
               insuranceMessage
+              length
             }
             sarah {
               title

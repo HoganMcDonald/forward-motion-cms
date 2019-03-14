@@ -100,14 +100,20 @@ const FeePrice = styled.h4`
 
 class Fees extends PureComponent {
   render() {
-    const { individual, family, insuranceHref, insuranceMessage } = this.props;
+    const {
+      individual,
+      family,
+      insuranceHref,
+      insuranceMessage,
+      length
+    } = this.props;
 
     return (
       <Background id="fees">
         <FeeContainer>
           <SectionHeadings>
             <Heading>Fees</Heading>
-            <SubHeading>Typical Session is 50 mins</SubHeading>
+            <SubHeading>{length}</SubHeading>
           </SectionHeadings>
           <FeeDetails>
             <FeeGroup>
