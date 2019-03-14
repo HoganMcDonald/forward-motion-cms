@@ -122,7 +122,11 @@ class NavBar extends Component {
       </Nav>
     ) : (
       <>
-        <MenuToggle open={open} onClick={() => this.setState({ open: !open })}>
+        <MenuToggle
+          name="Toggle Main Menu"
+          open={open}
+          onClick={() => this.setState({ open: !open })}
+        >
           {open ? <CloseIcon size={2} /> : <MenuIcon size={2} />}
         </MenuToggle>
         {open && (
