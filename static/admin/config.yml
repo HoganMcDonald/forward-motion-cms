@@ -181,7 +181,11 @@ collections:
                     name: family,
                     widget: number,
                   },
-                  { label: Individual Pricing, name: family, widget: number },
+                  {
+                    label: Individual Pricing,
+                    name: individual,
+                    widget: number,
+                  },
                   {
                     label: Link for Insurance,
                     name: insuranceHref,
