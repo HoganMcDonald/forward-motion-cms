@@ -103,6 +103,7 @@ class HomePage extends React.Component {
           <meta name="title" content={seoTitle} />
           <meta name="description" content={seoDescription} />
           <title>{browserTitle}</title>
+          <html lang="en" />
         </Helmet>
         <HomePageTemplate
           home={home}

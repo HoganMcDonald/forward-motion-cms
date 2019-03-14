@@ -124,6 +124,7 @@ class FormsPage extends Component {
           <meta name="title" content={seoTitle} />
           <meta name="description" content={seoDescription} />
           <title>{browserTitle}</title>
+          <html lang="en" />
         </Helmet>
         <FormPageTemplate {...form} />
       </Layout>
