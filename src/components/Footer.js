@@ -47,6 +47,7 @@ class Footer extends PureComponent {
                     margin: '0.5rem'
                   }}
                   target="_blank"
+                  rel="noopener noreferrer"
                 />
               ))}
             </SocialLinks>
