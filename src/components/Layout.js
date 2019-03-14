@@ -1,5 +1,6 @@
 import React, { PureComponent } from 'react';
 import styled from 'styled-components';
+import { graphql } from 'gatsby';
 
 import { DeviceProvider, withDevice } from '../utils/withMedia';
 import AnnouncementBar from './AnnouncementBar';

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Helmet from 'react-helmet';
 import styled from 'styled-components';
+import { graphql } from 'gatsby';
 
 import { blue, blue_light, black } from '../styles/theme';
 import Layout from '../components/Layout';
