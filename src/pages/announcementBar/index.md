@@ -1,6 +1,7 @@
 ---
 templateKey: announcement-bar
-disabled: true
-message: See the repo on Github
-linkURL: 'https://github.com/HoganMcDonald/gatsby-starter'
+disabled: false
+message: Inquire now about remote therapy sessions!
+linkURL: 'https://forwardmotiontherapy.com#contact'
 ---
+
