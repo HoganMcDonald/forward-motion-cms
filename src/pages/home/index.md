@@ -10,10 +10,11 @@ hero:
   imageSrc: /img/sofa.compressed.jpg
 therapy:
   content: >-
-    Therapy at FMT focuses on relationships. On helping individuals & couples
-    gain movement from the cyclical ruts we often find ourselves in.
-    Relationships are at the core of our human experience and issues within
-    those relationships are unavoidable (despite our best efforts!) 
+    Whether in person or connecting over video, Therapy at FMT focuses on
+    relationships. On helping individuals & couples gain movement from the
+    cyclical ruts we often find ourselves in. Relationships are at the core of
+    our human experience and issues within those relationships are unavoidable -
+    despite our best efforts! 
 
 
     In therapy, we will explore the underlying process that continues to play
@@ -34,7 +35,7 @@ fees:
   individual: '100'
   insuranceHref: 'http://minncp.com/meet-us/providers/#post-1529'
   insuranceMessage: In-Network Options Available Through Minnesota Center for Psychology
-  length: 'Sessions are about 55 minutes.'
+  length: Sessions are about 55 minutes.
 sarah:
   content: >-
     I believe life is about who you are in relationship, whether that
@@ -112,3 +113,4 @@ fit:
   imageSrc: /img/woman.jpg
   title: A Good Fit?
 ---
+
