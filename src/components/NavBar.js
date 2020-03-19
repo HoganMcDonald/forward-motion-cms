@@ -1,15 +1,15 @@
-import React, { Component } from 'react';
-import { Link } from 'gatsby';
-import PropTypes from 'prop-types';
-import styled, { css } from 'styled-components';
-import AnchorLink from 'react-anchor-link-smooth-scroll';
+import React, { Component } from "react";
+import { Link } from "gatsby";
+import PropTypes from "prop-types";
+import styled, { css } from "styled-components";
+import AnchorLink from "react-anchor-link-smooth-scroll";
 
-import { withDevice } from '../utils/withMedia';
-import { white, link, black } from '../styles/theme';
-import MenuIcon from '../svgs/MenuIcon';
-import CloseIcon from '../svgs/CloseIcon';
-import MobileMenu from './MobileMenu';
-import Logo from '../svgs/Logo';
+import { withDevice } from "../utils/withMedia";
+import { white, link, black } from "../styles/theme";
+import MenuIcon from "../svgs/MenuIcon";
+import CloseIcon from "../svgs/CloseIcon";
+import MobileMenu from "./MobileMenu";
+import Logo from "../svgs/Logo";
 
 const Nav = styled.nav`
   z-index: 999;
@@ -53,6 +53,7 @@ const linkStyles = css`
   text-decoration: none;
   color: ${black};
   transition: color 150ms ease-out;
+  cursor: pointer;
 
   &:hover {
     color: ${link};
@@ -65,6 +66,11 @@ const LinkTag = styled(Link)`
 
 const A = styled(AnchorLink)`
   ${linkStyles}
+`;
+
+const ExternalLink = styled.a`
+  ${linkStyles}
+  color: ${link};
 `;
 
 const MenuToggle = styled.button`
@@ -99,14 +105,20 @@ class NavBar extends Component {
     const { menuItems = [], device, showLogo = true } = this.props;
     const { open } = this.state;
 
-    return device === 'large' ? (
+    const doxyLink = {
+      label: "Video Session",
+      linkType: "external",
+      linkURL: "https://doxy.me/forwardmotiontherapy"
+    };
+
+    return device === "large" ? (
       <Nav>
-        <LogoLink to={'/'}>{showLogo && <StyledLogo />}</LogoLink>
+        <LogoLink to="/">{showLogo && <StyledLogo />}</LogoLink>
         <LinkList>
-          {menuItems.map((link, i) => (
+          {[...menuItems, doxyLink].map((link, i) => (
             <LinkItem key={i}>
-              {link.linkType === 'internal' ? (
-                link.linkURL[0] === '#' ? (
+              {link.linkType === "internal" ? (
+                link.linkURL[0] === "#" ? (
                   <A href={link.linkURL} offset="100">
                     {link.label}
                   </A>
@@ -114,7 +126,9 @@ class NavBar extends Component {
                   <LinkTag to={link.linkURL}>{link.label}</LinkTag>
                 )
               ) : (
-                <A href={link.linkURL}>{link.label}</A>
+                <ExternalLink href={link.linkURL} target="_blank">
+                  {link.label}
+                </ExternalLink>
               )}
             </LinkItem>
           ))}

@@ -1,8 +1,8 @@
-import React, { PureComponent } from 'react';
-import styled from 'styled-components';
-import { Link } from 'gatsby';
+import React, { PureComponent } from "react";
+import styled, { css } from "styled-components";
+import { Link } from "gatsby";
 
-import { blue, white } from '../styles/theme';
+import { blue, white } from "../styles/theme";
 
 const Overlay = styled.div`
   z-index: 999;
@@ -18,7 +18,7 @@ const Overlay = styled.div`
   justify-content: center;
 `;
 
-const LinkTag = styled(Link)`
+const linkStyles = css`
   text-decoration: none;
   color: ${white};
   font-size: 2rem;
@@ -26,16 +26,36 @@ const LinkTag = styled(Link)`
   text-transform: uppercase;
 `;
 
+const LinkTag = styled(Link)`
+  ${linkStyles}
+`;
+
+const ExternalLink = styled.a`
+  ${linkStyles}
+  margin-bottom: 2rem;
+`;
+
 class MobileMenu extends PureComponent {
   render() {
     const { menuItems, onClick } = this.props;
+    const doxyLink = {
+      label: "Video Session",
+      linkType: "external",
+      linkURL: "https://doxy.me/forwardmotiontherapy"
+    };
     return (
       <Overlay>
-        {menuItems.map((link, i) => (
-          <LinkTag key={i} to={link.linkURL} onClick={onClick}>
-            {link.label}
-          </LinkTag>
-        ))}
+        {[doxyLink, ...menuItems].map((link, i) =>
+          link.linkType === "internal" ? (
+            <LinkTag key={i} to={link.linkURL} onClick={onClick}>
+              {link.label}
+            </LinkTag>
+          ) : (
+            <ExternalLink key={i} href={link.linkURL} target="_blank">
+              {link.label}
+            </ExternalLink>
+          )
+        )}
       </Overlay>
     );
   }
