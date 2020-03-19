@@ -1,11 +1,11 @@
-import React, { Component } from 'react';
-import Helmet from 'react-helmet';
-import styled from 'styled-components';
-import { graphql } from 'gatsby';
+import React, { Component } from "react";
+import Helmet from "react-helmet";
+import styled from "styled-components";
+import { graphql } from "gatsby";
 
-import { blue, blue_light, black } from '../styles/theme';
-import Layout from '../components/Layout';
-import RightArrow from '../svgs/RightArrow';
+import { blue, blue_light, black } from "../styles/theme";
+import Layout from "../components/Layout";
+import RightArrow from "../svgs/RightArrow";
 
 const FormsContainer = styled.div`
   width: 100%;
@@ -77,11 +77,12 @@ const FormLink = styled.a`
 `;
 
 export const FormPageTemplate = ({ forms = [] }) => {
+  console.log(forms);
   return (
     <FormsContainer>
       <Forms>
         {forms.map((form, i) => (
-          <FormLink key={i} href={form.form} target="_blank">
+          <FormLink key={i} href={form.file} target="_blank">
             <Form>
               <DownloadLink />
               <FormDetails>
@@ -106,7 +107,7 @@ class FormsPage extends Component {
     let { frontmatter: navBar } = data.navbarData.edges[0].node;
     navBar = {
       ...navBar,
-      menuItems: navBar.menuItems.filter(item => item.linkURL[0] !== '#')
+      menuItems: navBar.menuItems.filter(item => item.linkURL[0] !== "#")
     };
     const { frontmatter: footer } = data.footerData.edges[0].node;
     const {
