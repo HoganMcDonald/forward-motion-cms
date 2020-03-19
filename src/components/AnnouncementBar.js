@@ -1,10 +1,10 @@
-import React, { Component } from 'react';
-import styled, { keyframes } from 'styled-components';
-import PropTypes from 'prop-types';
+import React, { Component } from "react";
+import styled, { keyframes } from "styled-components";
+import PropTypes from "prop-types";
 
-import { withDevice } from '../utils/withMedia';
-import CloseIcon from '../svgs/CloseIcon';
-import { light, blue, dark } from '../styles/theme';
+import { withDevice } from "../utils/withMedia";
+import CloseIcon from "../svgs/CloseIcon";
+import { light, blue, dark } from "../styles/theme";
 
 const fadeIn = keyframes`
   from {
@@ -27,10 +27,9 @@ const fadeOut = keyframes`
 `;
 
 const Bar = styled.div`
-  z-index: 1;
+  z-index: 999;
   position: fixed;
-  top: ${props => (props.device === 'large' ? 0 : null)};
-  bottom: ${props => (props.device === 'large' ? null : 0)};
+  bottom: 0;
   left: 0;
   right: 0;
   height: 2rem;
@@ -38,7 +37,7 @@ const Bar = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  visibility: ${props => (props.out ? 'hidden' : 'visible')};
+  visibility: ${props => (props.out ? "hidden" : "visible")};
   animation: ${props => (props.out ? fadeOut : fadeIn)} 250ms ease-out;
   transition: visibility 250ms ease-out;
 `;
