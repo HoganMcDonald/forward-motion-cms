@@ -60,7 +60,7 @@ sarah:
     I am working toward Licensure and all therapeutic services I provide are
     under the supervision of Shawn R Neel, MS, LMFT with The Institute for
     Relational Well-Being. He is an AAMFT and MN State Approved MFT Supervisor
-    and can be reached at <mailto:supervision@irwb.org>
+    and can be reached at [shawn@irwb.org](mailto:supervision@irwb.org)
 
 
     For clients of FMT, this means that a seasoned, fully-licensed therapist is
