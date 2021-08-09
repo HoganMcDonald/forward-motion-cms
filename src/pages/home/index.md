@@ -10,20 +10,20 @@ hero:
   imageSrc: /img/sofa.compressed.jpg
 therapy:
   content: >-
-    Whether in office or teletherapy, our work focuses on relationship-ing. On
+    Whether in office or tele-therapy, our work focuses on relationship-ing. On
     helping individuals & couples gain movement from the cyclical ruts we often
     find ourselves in... with ourselves, with others, with all the things.
     Relationships are at the core of our human experience and issues within
     those relationships are unavoidable - despite our best efforts! 
 
 
-    In therapy, we will explore the underlying process that continues to play
-    out in ways that aren't helping anymore... they're now hindering. Together,
-    we work to acknowledge, heal, and honor who you are, where you've been, and
-    where you want to be heading. This is achieved first and foremost with your
-    willingness to look deeper and explore; to take the time to delve into what
-    lies below the surface. There's also a decent amount  psycho-education,
-    homework (if desired & applicable), and exploring your family of origin.
+    In therapy, we explore the underlying process that plays out in ways that
+    aren't helping anymore... now they hinder. Together, we work to acknowledge,
+    heal, and honor who you are, where you've been, and where you want to be
+    heading. This is achieved first and foremost with your willingness to look
+    deeper and explore; to take the time to be curious with what's below the
+    surface for you. There's also a decent amount  psycho-education, homework
+    (if desired & applicable), and exploring your family of origin.
 
 
     In a nutshell, the goal is to become more aware of who you are, what you and
