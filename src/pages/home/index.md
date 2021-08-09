@@ -26,9 +26,9 @@ therapy:
     (if desired & applicable), and exploring your family of origin.
 
 
-    In a nutshell, the goal is to become more aware of who you are, what you and
-    your relationships need, and what inner strengths you already have that can
-    be utilized to work for you & your goals.
+    End of the day, the goal is to become more aware of who you are, what you
+    need, what your relationships need, and how you can tap into all that you
+    already have so it can work for you. Smarter, not harder.
   title: What Therapy Looks Like
 fees:
   family: '150'
