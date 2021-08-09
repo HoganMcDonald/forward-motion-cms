@@ -58,14 +58,13 @@ sarah:
 
 
     I am working toward Licensure and all therapeutic services I provide are
-    under the supervision of Shawn R Neel, MS, LMFT with The Institute for
-    Relational Well-Being. He is an AAMFT and MN State Approved MFT Supervisor
-    and can be reached at [shawn@irwb.org](mailto:supervision@irwb.org)
+    under the supervision of Margaret Houston, DMFT, LMFT. She is a MN State
+    Approved MFT Supervisor and can be reached at (612) 875-0668.
 
 
-    For clients of FMT, this means that a seasoned, fully-licensed therapist is
-    working collaboratively with me (behind the scenes) to oversee and ensure
-    that the highest level of quality and client care are being provided.
+    For clients this means a seasoned, fully-licensed therapist is working
+    collaboratively with me (behind the scenes) to oversee and ensure that the
+    highest level of quality and client care are being provided.
 
 
     You get an extra set of ears on the progress of our work together
@@ -76,10 +75,9 @@ sarah:
   title: 'Sarah Sjolund (show-lund), MA'
 fit:
   content: >-
-    So, here's the thing... with therapy, just like most things in life,
-    connection and a good fit matter. AND... These things are subjective; what's
-    'good' for one person/couple/family, very well may not be 'good' for
-    another.
+    So, here's the thing... therapy is like most things in life. The connection
+    and fit matter. AND... These things are subjective; what's 'good' for one,
+    very well could be a shit show for another.
 
 
     It's important when deciding to work with a therapist (any therapist) that
@@ -89,19 +87,18 @@ fit:
     1. Therapists are a dime a dozen. It's worth your time & effort to find a
     therapist you and yours are comfortable with.
 
-
     2. Therapy is a process. What has taken decades to create, will not change
     overnight. Being comfortable with your chosen therapist is vital - because
     uncomfortable things will inevitably come up. The last thing anyone needs is
-    to be working through their baggage in the presence of someone who doesn't
-    feel safe to them. 
+    to be working through their baggage with someone who doesn't feel safe to
+    them walking along side.
 
 
     What I can offer you (spoiler alert: it's not all the answers!!), is a space
-    filled with genuine care and concern for you as a human. I'll share my
-    insight and knowledge that is rooted in Family Systems Theory, and provide
-    you the opportunity to gain insight about yourself and your relationships in
-    a safe space. Cheers to the #judgefreezone!
+    filled with genuine care and concern for you as a human. I share my insight
+    and knowledge that is rooted in Family Systems Theory, and provide you the
+    opportunity to gain insight about yourself and your relationships in a safe
+    space. Cheers to the #judgefreezone!
 
 
     More questions?  Want to discuss a specific situation? 
