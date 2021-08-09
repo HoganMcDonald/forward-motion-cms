@@ -33,23 +33,23 @@ therapy:
 fees:
   family: '150'
   individual: '130'
-  insuranceHref: 'http://minncp.com/meet-us/providers/#post-1529'
-  insuranceMessage: In-Network Options Available Through Minnesota Center for Psychology
+  insuranceHref: ''
+  insuranceMessage: ''
   length: Sessions are about 55 minutes.
 sarah:
   content: >-
-    I believe life is about who you are in relationship, whether that
-    relationship is with yourself, a partner, co-worker, boss, friend, pet…
-    whoever. How you react, how you communicate, what level of awareness you
-    have of yourself; your reactions, triggers, attachments, communication
-    styles, etc. - they all matter! And… they all directly affect every single
-    one of our relationships.
+    Life is filled with relationships. Relationship-ing happens with yourself,
+    your partner(s), co-workers, family, friends, pets… whoever and whatever.
+    How you react, how you communicate, what level of awareness you have of
+    yourself; your perceptions, reactions, attachments, communication styles,
+    etc. - they all matter! And… they all directly affect the experiences we
+    have.
 
 
     Unfortunately, we’re not explicitly taught & socialized how to exist, grow,
     or thrive in relationships. Therapy is an ideal place to learn, grow, and
-    create the space in your life and relationships that can foster forward
-    motion from patterns you’re cycling in.
+    create the space in your life and relationships to foster forward motion
+    from the current cycles.
 
 
     I received my MA in Marriage and Family Therapy from St. Mary’s University
@@ -67,9 +67,9 @@ sarah:
     highest level of quality and client care are being provided.
 
 
-    You get an extra set of ears on the progress of our work together
-    (#twoforone), and I get the opportunity to have ongoing professional
-    guidance and input as I continue to work toward licensure.
+    You get an extra set of ears on the progress of our work together. I get the
+    opportunity to have ongoing professional guidance and input while I work
+    toward licensure.
   imageAlt: 'Sarah Sjolund: headshot'
   imageSrc: /img/sarah.jpg
   title: 'Sarah Sjolund (show-lund), MA'
