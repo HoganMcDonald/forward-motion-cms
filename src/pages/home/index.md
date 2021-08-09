@@ -10,11 +10,11 @@ hero:
   imageSrc: /img/sofa.compressed.jpg
 therapy:
   content: >-
-    Whether in person or connecting over video, Therapy at FMT focuses on
-    relationships. On helping individuals & couples gain movement from the
-    cyclical ruts we often find ourselves in. Relationships are at the core of
-    our human experience and issues within those relationships are unavoidable -
-    despite our best efforts! 
+    Whether in office or teletherapy, our work focuses on relationship-ing. On
+    helping individuals & couples gain movement from the cyclical ruts we often
+    find ourselves in... with ourselves, with others, with all the things.
+    Relationships are at the core of our human experience and issues within
+    those relationships are unavoidable - despite our best efforts! 
 
 
     In therapy, we will explore the underlying process that continues to play
