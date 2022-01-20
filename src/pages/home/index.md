@@ -35,7 +35,7 @@ fees:
   individual: '130'
   insuranceHref: ''
   insuranceMessage: ''
-  length: Sessions are about 55 minutes.
+  length: 'Session length is usually 45 - 50 minutes. '
 sarah:
   content: >-
     Life is filled with relationships. Relationship-ing happens with yourself,
