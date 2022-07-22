@@ -1,6 +1,6 @@
 ---
 templateKey: announcement-bar
-disabled: false
+disabled: true
 message: Inquire now about remote therapy sessions!
 linkURL: 'https://forwardmotiontherapy.com#contact'
 ---
