@@ -6,7 +6,7 @@ logoImage:
 menuItems:
   - label: home
     linkType: internal
-    linkURL: '/'
+    linkURL: /
   - label: therapy
     linkType: internal
     linkURL: '#therapy'
@@ -22,4 +22,8 @@ menuItems:
   - label: forms
     linkType: internal
     linkURL: /forms
+  - label: Client Portal
+    linkType: external
+    linkURL: 'https://forwardmotiontherapy.clientsecure.me'
 ---
+
