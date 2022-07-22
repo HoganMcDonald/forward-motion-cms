@@ -35,7 +35,7 @@ fees:
   individual: '130'
   insuranceHref: ''
   insuranceMessage: ''
-  length: 'Session length is usually 45 - 50 minutes. '
+  length: 'Session length is usually 45 - 55 minutes. '
 sarah:
   content: >-
     Life is filled with relationships. Relationship-ing happens with yourself,
@@ -54,7 +54,9 @@ sarah:
 
     I received my MA in Marriage and Family Therapy from St. Mary’s University
     of MN, and my BS in Community Psychology, with a minor in Applied Behavior
-    Analysis, from St. Cloud State University.
+    Analysis, from St. Cloud State University. Additionally, I'm trained in both
+    EMDR (EMDRIA approved training course) and hold a Gottman Method Couples
+    Therapy Level 1 Certificate.
 
 
     I am working toward Licensure and all therapeutic services I provide are
@@ -69,7 +71,7 @@ sarah:
 
     You get an extra set of ears on the progress of our work together. I get the
     opportunity to have ongoing professional guidance and input while I work
-    toward licensure.
+    toward full licensure.
   imageAlt: 'Sarah Sjolund: headshot'
   imageSrc: /img/sarah.jpg
   title: 'Sarah Sjolund (show-lund), MA'
