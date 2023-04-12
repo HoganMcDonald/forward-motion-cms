@@ -34,8 +34,8 @@ fees:
   family: '150'
   individual: '130'
   insuranceHref: ''
-  insuranceMessage: ''
-  length: 'Session length is usually 45 - 55 minutes. '
+  insuranceMessage: 'Currently in-network with most Medica, UHC, & UCare insurance plans.'
+  length: Session length is about 55 minutes.
 sarah:
   content: >-
     Life is filled with relationships. Relationship-ing happens with yourself,
@@ -52,11 +52,11 @@ sarah:
     from the current cycles.
 
 
-    I received my MA in Marriage and Family Therapy from St. Mary’s University
-    of MN, and my BS in Community Psychology, with a minor in Applied Behavior
-    Analysis, from St. Cloud State University. Additionally, I'm trained in both
-    EMDR (EMDRIA approved training course) and hold a Gottman Method Couples
-    Therapy Level 1 Certificate.
+    I completed my MA in Marriage and Family Therapy at St. Mary’s University of
+    MN, and my BS in Community Psychology, with a minor in Applied Behavior
+    Analysis, at St. Cloud State University. Additionally, I'm trained in EMDR
+    (EMDRIA approved training course) and Gottman Method Couples Therapy (Level
+    1 Certificate).
 
 
     I am working toward Licensure and all therapeutic services I provide are
@@ -69,9 +69,8 @@ sarah:
     highest level of quality and client care are being provided.
 
 
-    You get an extra set of ears on the progress of our work together. I get the
-    opportunity to have ongoing professional guidance and input while I work
-    toward full licensure.
+    You get an extra set of ears on the progress of our work together. I get
+    ongoing professional guidance and input as I work toward full licensure.
   imageAlt: 'Sarah Sjolund: headshot'
   imageSrc: /img/sarah.jpg
   title: 'Sarah Sjolund (show-lund), MA'
@@ -79,11 +78,11 @@ fit:
   content: >-
     So, here's the thing... therapy is like most things in life. The connection
     and fit matter. AND... These things are subjective; what's 'good' for one,
-    very well could be a shit show for another.
+    very well could be a hot mess for another.
 
 
-    It's important when deciding to work with a therapist (any therapist) that
-    you know the following:
+    It's important when deciding to work with a therapist that you know the
+    following:
 
 
     1. Therapists are a dime a dozen. It's worth your time & effort to find a
@@ -96,11 +95,12 @@ fit:
     them walking along side.
 
 
-    What I can offer you (spoiler alert: it's not all the answers!!), is a space
-    filled with genuine care and concern for you as a human. I share my insight
-    and knowledge that is rooted in Family Systems Theory, and provide you the
-    opportunity to gain insight about yourself and your relationships in a safe
-    space. Cheers to the #judgefreezone!
+    What I can offer you (spoiler alert: it's not all the answers), is space
+    filled with genuine care and concern for you as a human and support to help
+    you meet your goals. I share my insight and knowledge that is rooted in
+    Family Systems Theory, and provide you the opportunity to gain insight about
+    yourself and your relationships in a safe space. Cheers to the
+    #judgefreezone!
 
 
     More questions?  Want to discuss a specific situation? 
