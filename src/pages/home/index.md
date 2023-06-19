@@ -107,7 +107,7 @@ fit:
 
 
     Please don't hesitate to reach out - I'm happy to schedule a complementary
-    30 minute phone consultation.
+    15 minute phone consultation.
   imageAlt: Woman sitting on sofa looking out window
   imageSrc: /img/woman.jpg
   title: A Good Fit?
