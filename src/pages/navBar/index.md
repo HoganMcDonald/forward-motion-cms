@@ -24,6 +24,6 @@ menuItems:
     linkURL: /forms
   - label: Client Portal
     linkType: external
-    linkURL: '/https://forwardmotiontherapy.clientsecure.me'
+    linkURL: forwardmotiontherapy.clientsecure.me
 ---
 
