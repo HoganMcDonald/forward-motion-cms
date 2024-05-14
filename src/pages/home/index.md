@@ -34,7 +34,7 @@ therapy:
 fees:
   family: '150'
   individual: '130'
-  insuranceHref: ''
+  insuranceHref: 'about/https://forwardmotiontherapy.clientsecure.me'
   insuranceMessage: >-
     Currently in-network with Medica, UHC, & UCare and BCBS of MN insurance
     plans. Please contact your insurance provider directly to confirm coverage
