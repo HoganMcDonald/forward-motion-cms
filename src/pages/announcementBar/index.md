@@ -1,7 +1,7 @@
 ---
 templateKey: announcement-bar
-disabled: true
-message: Inquire now about tele therapy sessions!
-linkURL: 'https://forwardmotiontherapy.com#contact'
+disabled: false
+message: Client Portal Link for online scheduling and account info.
+linkURL: '/abouthttps://forwardmotiontherapy.clientsecure.me'
 ---
 
