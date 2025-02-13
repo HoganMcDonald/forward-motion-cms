@@ -16,12 +16,6 @@ menuItems:
   - label: about
     linkType: internal
     linkURL: '#about'
-  - label: contact
-    linkType: internal
-    linkURL: '#contact'
-  - label: forms
-    linkType: internal
-    linkURL: /forms
   - label: Client Portal
     linkType: external
     linkURL: forwardmotiontherapy.clientsecure.me
