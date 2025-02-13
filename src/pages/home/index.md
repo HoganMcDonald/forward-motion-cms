@@ -47,38 +47,24 @@ sarah:
     whatever. How you react, how you communicate, what level of awareness you
     have of yourself and others; perceptions, reactions, attachments,
     communication styles, etc. - they all play a role. Whether we like it or
-    not, they all directly affect the lived experience.
+    not, they all directly affect our lived experience.
 
 
     Unfortunately, we’re not explicitly taught & socialized how to exist, grow,
     or thrive in relationships. Therapy is an ideal place to learn, grow, and
     create the space in your life and relationships to foster forward motion
-    from the current cycles.
+    from the current cycles. 
 
 
     I completed my MA in Marriage and Family Therapy at St. Mary’s University of
     MN, and my BS in Community Psychology, with a minor in Applied Behavior
     Analysis, at St. Cloud State University. I currently hold MN License #4526;
-    Licensed Associate Marriage and Family Therapist. Additionally, I'm trained
-    in EMDR (EMDRIA approved training course) and Gottman Method Couples Therapy
-    (Level 1 Certificate).
-
-
-    I am working toward Licensure and all therapeutic services I provide are
-    under the supervision of Margaret Houston, DMFT, LMFT. She is a MN State
-    Approved MFT Supervisor and can be reached at (612) 875-0668.
-
-
-    For clients this means a seasoned, fully-licensed therapist is working
-    collaboratively with me (behind the scenes) to oversee and ensure that the
-    highest level of quality and client care are being provided.
-
-
-    You get an extra set of ears on the progress of our work together. I get
-    ongoing professional guidance and input as I work toward full licensure.
+    Licensed Marriage and Family Therapist. Additionally, I'm trained in EMDR
+    (EMDRIA approved training course) and Gottman Method Couples Therapy (Level
+    1 Certificate).
   imageAlt: 'Sarah Sjolund: headshot'
   imageSrc: /img/sarah.jpg
-  title: 'Sarah Sjolund (show-lund), MA, LAMFT'
+  title: 'Sarah Sjolund (show-lund), MA, LMFT'
 fit:
   content: >-
     So, here's the thing - therapy is like everything else in life, not one size
